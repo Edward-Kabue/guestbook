@@ -1,13 +1,13 @@
 name: app
 
-type: php:7.3
+type: php:7.4
 
 runtime:
   extensions:
     - pdo_pgsql
     - apcu
     - mbstring
-    - sodium
+
 
 
 build:
@@ -15,6 +15,7 @@ build:
 
 relationships:
   database: "db:postgresql"
+
 
 web:
   locations:
