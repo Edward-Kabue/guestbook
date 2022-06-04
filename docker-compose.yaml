@@ -8,6 +8,8 @@ services:
         POSTGRES_USER: main
         POSTGRES_PASSWORD: main
         POSTGRES_DB: main
+        POSTGRES_HOST_AUTH_METHOD: 'trust'
+        POSTGRES_HOST: db
       ports:
         - 5432/tcp
 

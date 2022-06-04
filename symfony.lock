@@ -266,6 +266,9 @@
     "symfony/options-resolver": {
         "version": "v5.4.3"
     },
+    "symfony/orm-pack": {
+        "version": "v2.2.0"
+    },
     "symfony/password-hasher": {
         "version": "v5.4.8"
     },
